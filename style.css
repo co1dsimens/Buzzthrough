@@ -313,6 +313,23 @@ header{
         backdrop-filter: blur(10px);
     }
 }
+
+@media screen and (max-width: 430px) {
+    .course_left_img, .course_left_Secondimg {
+        height: 70%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .course_left_img, .course_left_Secondimg {
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .course_left_img, .course_left_Secondimg {
+        height: 100%;
+    }
+}
 /*--------------------*/
 
 /*--------------footer--------------*/
